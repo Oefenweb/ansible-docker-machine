@@ -39,3 +39,10 @@
   tags:
     - docker-machine-install-install
     - docker-machine-install-install-symlink
+
+- name: verify
+  shell: "{{ docker_machine_install_prefix }}/docker-machine --version"
+  register: verify_result
+- assert:
+    that:
+      - "docker_machine_version.replace('v', '', 1) in verify_result.stdout"
