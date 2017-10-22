@@ -44,7 +44,7 @@
   command: >
     {{ docker_machine_install_prefix }}/docker-machine --version
   register: _verify_version
-  failed_when: "docker_machine_version.replace('v', '', 1) not in _verify_version.stdout"
+  failed_when: "docker_machine_version | replace('v', '', 1) not in _verify_version.stdout"
   changed_when: false
   tags:
     - docker-machine-install-verify
