@@ -2,3 +2,4 @@
 ---
 docker_machine_version: v0.14.0
 docker_machine_install_prefix: /usr/local/bin
+docker_machine_download_url: https://github.com
