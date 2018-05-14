@@ -12,6 +12,7 @@ None
 
 * `docker_machine_version` [default: `v0.14.0`]: Version to install
 * `docker_machine_install_prefix` [default: `/usr/local/bin`]: Install prefix
+* `docker_machine_download_url` [default: `https://github.com`]: Download url
 
 ## Dependencies
 

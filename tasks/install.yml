@@ -21,7 +21,7 @@
 
 - name: download
   get_url:
-    url: "https://github.com/docker/machine/releases/download/{{ docker_machine_version }}/{{ _get_download_name.stdout }}"
+    url: "{{ docker_machine_download_url }}/docker/machine/releases/download/{{ docker_machine_version }}/{{ _get_download_name.stdout }}"
     dest: "{{ docker_machine_downloads_path }}/{{ _get_download_name.stdout }}-{{ docker_machine_version }}"
     owner: root
     group: root
