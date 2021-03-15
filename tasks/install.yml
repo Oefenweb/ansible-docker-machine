@@ -1,4 +1,4 @@
-# tasks file for docker-machine
+# tasks file
 ---
 - name: get download name
   shell: echo docker-machine-$(uname -s)-$(uname -m)

@@ -1,6 +1,7 @@
-# meta file for docker-machine
+# meta file
 ---
 galaxy_info:
+  namespace: oefenweb
   role_name: docker-machine
   author: Mischa ter Smitten
   company: Oefenweb.nl B.V.

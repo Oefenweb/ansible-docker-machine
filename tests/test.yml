@@ -1,4 +1,4 @@
-# test file for docker-machine
+# test file
 ---
 - hosts: localhost
   connection: local
