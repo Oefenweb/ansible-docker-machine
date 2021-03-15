@@ -1,6 +1,6 @@
 ## docker-machine
 
-[![Build Status](https://travis-ci.org/Oefenweb/ansible-docker-machine.svg?branch=master)](https://travis-ci.org/Oefenweb/ansible-docker-machine)
+[![CI](https://github.com/Oefenweb/ansible-docker-machine/workflows/CI/badge.svg)](https://github.com/Oefenweb/ansible-docker-machine/actions?query=workflow%3ACI)
 [![Ansible Galaxy](http://img.shields.io/badge/ansible--galaxy-docker--machine-blue.svg)](https://galaxy.ansible.com/oefenweb/docker_machine)
 
 Set up (the latest or a specific version of) [Docker Machine](https://docs.docker.com/machine) in Debian-like systems.
