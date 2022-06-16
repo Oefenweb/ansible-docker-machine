@@ -1,7 +1,8 @@
 # tasks file
 ---
 - name: get download name
-  shell: echo docker-machine-$(uname -s)-$(uname -m)
+  shell: >
+    echo docker-machine-$(uname -s)-$(uname -m)
   register: _get_download_name
   changed_when: false
   tags:
