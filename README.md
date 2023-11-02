@@ -30,7 +30,7 @@ None
 ---
 - hosts: all
   roles:
-    - docker-machine
+    - oefenweb.docker-machine
 ```
 
 #### License
